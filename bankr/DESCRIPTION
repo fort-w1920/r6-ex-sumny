@@ -1,0 +1,17 @@
+Package: bankr
+Title: Provdide Various Bank Account Classes
+Version: 0.0.1
+Authors@R: 
+  person(given = "Lennart",
+         family = "Schneider",
+         role = c("aut", "cre"),
+         email = "schneider.lennart@campus.lmu.de",
+         comment = c(ORCID = "0000-0003-4152-5308"))
+Description: Play with bank accounts.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: checkmate, R6
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat (>= 2.1.0)
